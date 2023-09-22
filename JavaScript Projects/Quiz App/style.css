@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://cdn.vectorstock.com/i/preview-1x/08/03/abstract-dark-blue-stripe-pattern-diagonal-vector-27410803.jpg');
+  text-align: center;
+}
+
+.quiz-container {
+  /* Replace 'your-image-url.jpg' with the path to your image */
+  background-color: rgb(8, 14, 75);
+  padding: 160px;
+  border-radius: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  max-width: 500px;
+  /* Additional background properties for positioning and sizing the image */
+  background-size: cover; /* Adjust the sizing as needed */
+  background-position: center; /* Adjust the positioning as needed */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+
+
+
+
+
+h1 {
+  color: #fdfcfc;
+}
+.level-buttons {
+  text-align: center; /* Center align the buttons horizontally */
+}
+.level-buttons button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  padding: 20px 30px;
+  margin: 20px auto; /* Add margin to create space between the buttons vertically */
+  font-weight: bold;
+  cursor: pointer;
+ 
+   /* Center the buttons vertically within the container */
+}
+
+.question-container {
+ font-size: larger;
+  
+  font-weight: bold;
+  
+  color: #fff;
+  
+ 
+}
+
+.options .option {
+  font-size: larger;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: italic;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+#result {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#score {
+  font-weight: bold;
+}
